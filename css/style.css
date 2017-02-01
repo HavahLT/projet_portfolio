@@ -1,0 +1,77 @@
+*{
+  font-family: 'Lato', sans-serif;
+  /*color:#ffffff;*/
+}
+.navbar {
+    margin-bottom: 0;
+    background: transparent;
+    border: none;
+}
+h1, h2, h3, h4, h5{
+  font-family: 'Crete Round', serif;
+  color:#ffffff;
+}
+
+h2{
+  font-size: 2em;
+  text-align: center;
+}
+
+#intro {
+    background: url('../img/cats.jpg') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    filter: grayscale(100%);
+}
+
+#intro i{
+  color:#ffffff;
+  font-size:4em;
+  text-align: center;
+}
+
+#presentation {
+    background: #B8E879;
+}
+
+#projets h2{
+  z-index: 10;
+  position: absolute;
+  left: 38vw;
+}
+
+#presentation, .bloc-un, .bloc-deux, .projets {
+    height: 500px;
+    color: #ffffff;
+    font-size: 1.5em;
+    padding: 70px;
+}
+
+.bloc-un {
+    background: #FFFFFF;
+    color:#000000;
+}
+
+.bloc-deux {
+    background: #383836;
+}
+
+.illu-projet-a{
+  background: url('../img/canvas.png') no-repeat center;
+  background-size: cover;
+}
+
+.illu-projet-b{
+  background: url('../img/canvas2.png') no-repeat center;
+  background-size: cover;
+}
+
+.illu-projet-c{
+  background: url('../img/tels.jpg') no-repeat center;
+  background-size: cover;
+}
+
+#contact{
+  background: #333233;
+  height:300px;
+}
