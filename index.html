@@ -8,11 +8,13 @@
     <title>Portfolio - Bootstrap</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway|Pacifico" rel="stylesheet">
     <!-- FONT AWESOME -->
-    <linkhref="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Crete+Round|Lato" rel="stylesheet">
 
       <link rel="stylesheet" href="css/style.css">
@@ -20,110 +22,128 @@
 
 <body>
   <div class="container-fluid" id="intro">
+    <div class"row">
+      <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">HavahLT</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">A propos</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projets <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+      <div class="col-xs-12">
+        <h1 class="text-center">Titre principal</h1>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" id="apropos">
+    <div class"row">
+      <div class="col-xs-12">
+        <h2>A propos</h2>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
     <div class="row">
-      <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Brand</a>
+      <div class="col-xs-12 col-md-4">
+        <i class="fa fa-code" aria-hidden="true"></i>
+
+      </div>
+      <div class="col-xs-12 col-md-4"></div>
+      <div class="col-xs-12 col-md-4"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid center-block" id="projets">
+    <div class"row">
+      <div class="col-xs-12">
+        <h2>Projets</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-2">
+        <i id="btn-left" class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+
+      </div>
+      <div class="col-xs-12 col-md-8">
+        <div id="container-slide">
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Link</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Link</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-
-    <div class="col-xs-12 col-md-offset-3 col-md-6">
-      <p class="text-center">Lorem ipsum dolor sit amet</p>
-      <h1 class="text-center">Tempor incididunt </h1>
-      <i class="fa fa-angle-down" aria-hidden="true"></i>
-
-    </div>
-  </div>
-  </div>
-  <div class="container-fluid" id="presentation">
-    <div class="row">
-      <div class="col-xs-12 col-md-offset-2 col-md-8">
-        <h2>consectetur adipisicing</h2>
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique cum sit nam tempora deleniti quam mollitia alias. Ullam tenetur, ipsa doloremque debitis et labore iste, aspernatur aut porro amet accusamus.</p>
       </div>
+      <div class="col-xs-12 col-md-2">
+        <i id="btn-right" class="fa fa-chevron-circle-right" aria-hidden="true"></i>
 
+      </div>
     </div>
 
   </div>
-  <div class="container-fluid" id="projets">
-    <div class="row">
-      <h2>consectetur adipisicing</h2>
-      <div class="col-xs-12 col-md-6 bloc-un">
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique cum sit nam tempora deleniti quam mollitia alias. Ullam tenetur, ipsa doloremque debitis et labore iste, aspernatur aut porro amet accusamus.</p>
-      </div>
-      <div class="col-xs-12 col-md-6 bloc-deux illu-projet-a">
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique cum sit nam tempora deleniti quam mollitia alias. Ullam tenetur, ipsa doloremque debitis et labore iste, aspernatur aut porro amet accusamus.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-md-6 bloc-deux illu-projet-b">
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique cum sit nam tempora deleniti quam mollitia alias. Ullam tenetur, ipsa doloremque debitis et labore iste, aspernatur aut porro amet accusamus.</p>
-      </div>
-      <div class="col-xs-12 col-md-6 bloc-un">
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique cum sit nam tempora deleniti quam mollitia alias. Ullam tenetur, ipsa doloremque debitis et labore iste, aspernatur aut porro amet accusamus.</p>
-      </div>
-    </div>
-  </div>
+
   <div class="container-fluid" id="contact">
-    <div class="row">
-      <div class="col-xs-12 col-md-6 bloc-un">
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique cum sit nam tempora deleniti quam mollitia alias. Ullam tenetur, ipsa doloremque debitis et labore iste, aspernatur aut porro amet accusamus.</p>
-      </div>
-      <div class="col-xs-12 col-md-6 bloc-deux illu-projet-c">
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique cum sit nam tempora deleniti quam mollitia alias. Ullam tenetur, ipsa doloremque debitis et labore iste, aspernatur aut porro amet accusamus.</p>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid" id="contact">
-    <div class="row">
-      <div class="col-xs-12 col-md-offset-3 col-md-6">
+    <div class"row">
       <h2>Contact</h2>
+      <div class="col-xs-12 col-md-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
     </div>
   </div>
-    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </div>
+  </div>
+  <textarea class="form-control" rows="3"></textarea>
+</form>
+      </div>
+    </div>
+  </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="js/slider-projets.js"></script>
+
 </body>
 
 </html>

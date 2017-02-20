@@ -9,7 +9,7 @@
 }
 h1, h2, h3, h4, h5{
   font-family: 'Crete Round', serif;
-  color:#ffffff;
+  color:#000000;
 }
 
 h2{
@@ -17,61 +17,25 @@ h2{
   text-align: center;
 }
 
-#intro {
-    background: url('../img/cats.jpg') no-repeat center;
-    background-size: cover;
-    height: 100vh;
-    filter: grayscale(100%);
+#intro{
+  height:100vh;
+}
+#apropos{
+  min-height: 500px;
+}
+#projets{
+  min-height: 500px;
 }
 
-#intro i{
+#container-slide{
+  margin: 30px 0;
+}
+
+
+.bouton-projet{
+  border:none;
+  background:#FF346D;
   color:#ffffff;
-  font-size:4em;
-  text-align: center;
-}
-
-#presentation {
-    background: #B8E879;
-}
-
-#projets h2{
-  z-index: 10;
-  position: absolute;
-  left: 38vw;
-}
-
-#presentation, .bloc-un, .bloc-deux, .projets {
-    height: 500px;
-    color: #ffffff;
-    font-size: 1.5em;
-    padding: 70px;
-}
-
-.bloc-un {
-    background: #FFFFFF;
-    color:#000000;
-}
-
-.bloc-deux {
-    background: #383836;
-}
-
-.illu-projet-a{
-  background: url('../img/canvas.png') no-repeat center;
-  background-size: cover;
-}
-
-.illu-projet-b{
-  background: url('../img/canvas2.png') no-repeat center;
-  background-size: cover;
-}
-
-.illu-projet-c{
-  background: url('../img/tels.jpg') no-repeat center;
-  background-size: cover;
-}
-
-#contact{
-  background: #333233;
-  height:300px;
+  padding:10px;
+  font-weight: bold;
 }
