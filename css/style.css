@@ -1,15 +1,12 @@
 *{
-  font-family: 'Lato', sans-serif;
-  /*color:#ffffff;*/
-}
-.navbar {
-    margin-bottom: 0;
-    background: transparent;
-    border: none;
+  font-family: 'Raleway', sans-serif;
+  }
+p{
+  font-family: 'Raleway', sans-serif;
 }
 h1, h2, h3, h4, h5{
-  font-family: 'Crete Round', serif;
   color:#000000;
+  font-family: 'Raleway', sans-serif;
 }
 
 h2{
@@ -19,6 +16,51 @@ h2{
 #site{
   width:100%;
 }
+
+#barre-menu{
+  display: flex;
+  justify-content: space-between;
+  background:#262626;
+  padding:20px 10px;
+}
+
+#barre-menu h1, #barre-menu i{
+  color:#FFFFFF;
+  font-size: 1.5rem;
+  cursor:pointer;
+}
+
+#menu-principal{
+  background:#262626;
+  color:#FFFFFF;
+  padding:10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#menu-principal ul li{
+  font-size:1.5rem;
+  padding:10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #intro{
   height:100vh;
@@ -36,12 +78,13 @@ h2{
   padding:10px;
   display: inline;
 }
-
+/*
 #container-slide{
   margin: 30px 0;
   display: flex;
   justify-content: center;
 }
+*/
 
 #container-img-titre{
   min-height: 500px;
