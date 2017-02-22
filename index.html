@@ -15,47 +15,53 @@
 </head>
 
 <body>
-  <div id="site">
-    <div id="barre-menu">
-      <i id="btn-menu" class="fa fa-bars" aria-hidden="true"></i>
-      <i id="btn-menu-close" class="fa fa-times" aria-hidden="true"></i>
-      <h1>HavahLT</h1>
+    <div id="site">
+        <div id="barre-menu">
+            <i id="btn-menu" class="fa fa-bars" aria-hidden="true"></i>
+            <i id="btn-menu-close" class="fa fa-times" aria-hidden="true"></i>
+            <h1 class="titre-logo">HavahLT</h1>
+        </div>
+        <nav id="menu-principal">
+            <ul>
+                <li>A propos</li>
+                <li id="btn-projets">Projets
+                  <ul id="sous-menu">
+                    <li>Pokedex en JavaScript</li>
+                    <li>Slideshow VanillaJs</li>
+                    <li>RPG : tour de combat</li>
+                    <li>La saison des fruits et légumes</li>
+                  </ul>
+                </li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <div id="header">
+            <h1>Developpement Front-End</h1>
+        </div>
+        <div id="apropos">
+            <h2>A propos</h2>
+        </div>
+        <div id="projets">
+            <h2>Projets</h2>
+            <div id="container-slide">
+                <div id="container-img-titre"></div>
+                <div id="container-description-bouton"></div>
+            </div>
+            <div id="nav-slide">
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div id="contact">
+            <div id="liens">
+            </div>
+            <div id="formulaire">
+            </div>
+        </div>
     </div>
-    <div id="menu-principal">
-      <nav>
-        <ul>
-          <li>A propos</li>
-          <li>Projets</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </div>
-    <div id="header">
-      <h1>Developpement Front-End</h1>
-    </div>
-    <div id="apropos">
-      <h2>A propos</h2>
-    </div>
-    <div id="projets">
-      <h2>Projets</h2>
-      <div id="container-slide">
-        <div id="container-img-titre"></div>
-        <div id="container-description-bouton"></div>
-      </div>
-      <div id="nav-slide">
-        <i class="fa fa-circle" aria-hidden="true"></i>
-        <i class="fa fa-circle" aria-hidden="true"></i>
-        <i class="fa fa-circle" aria-hidden="true"></i>
-      </div>
-    </div>
-    <div id="contact">
-      <div id="liens">
-      </div>
-      <div id="formulaire">
-      </div>
-    </div>
-  </div>
-  <script src="js/menu.js"></script>
-   <script src="js/slider-projets.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/slider-projets.js"></script>
 </body>
+
 </html>

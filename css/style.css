@@ -1,119 +1,100 @@
-*{
-  font-family: 'Raleway', sans-serif;
-  }
-p{
-  font-family: 'Raleway', sans-serif;
-}
-h1, h2, h3, h4, h5{
-  color:#000000;
-  font-family: 'Raleway', sans-serif;
+* {
+    font-family: 'Raleway', sans-serif;
 }
 
-h2{
-  font-size: 2em;
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
   text-align: center;
-}
-#site{
-  width:100%;
-}
-
-#barre-menu{
-  display: flex;
-  justify-content: space-between;
-  background:#262626;
-  padding:20px 10px;
-}
-
-#barre-menu h1, #barre-menu i{
+  font-size: 2rem;
   color:#FFFFFF;
-  font-size: 1.5rem;
-  cursor:pointer;
+  padding:20px 0;
 }
 
-#menu-principal{
-  background:#262626;
-  color:#FFFFFF;
-  padding:10px;
-  font-family: 'Raleway', sans-serif;
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin:10px 0;
 }
 
-#menu-principal ul li{
-  font-size:1.5rem;
-  padding:10px 0;
+#site {
+    width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#intro{
-  height:100vh;
-}
-#apropos{
-  min-height: 500px;
-}
-#projets{
-  min-height: 500px;
+#barre-menu {
+    display: flex;
+    justify-content: space-between;
+    background: #262626;
+    padding: 20px 10px;
 }
 
-.titre-projet{
-  background:#FF346D;
-  color:#FFFFFF;
-  padding:10px;
-  display: inline;
-}
-/*
-#container-slide{
-  margin: 30px 0;
-  display: flex;
-  justify-content: center;
-}
-*/
-
-#container-img-titre{
-  min-height: 500px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width:50%;
+.titre-logo, #barre-menu i {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding:0;
 }
 
-#container-description-bouton{
-  width:50%;
-  min-height:250px;
-  padding:40px;
+#menu-principal {
+    background: #262626;
+    color: #FFFFFF;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 
-#nav-slide{
-  display: flex;
-  justify-content: center;
+#menu-principal ul li {
+    font-size: 1.5rem;
+    padding: 10px 0;
 }
 
-#nav-slide i{
-  padding:0 5px;
-  cursor: pointer;
+#sous-menu{
+  padding-left: 15px;
+}
+
+#header, #apropos, #projets{
+  min-height:100vh;
+}
+
+#header{
+  background: #FF3955;
 }
 
 
-.bouton-projet{
-  border:none;
-  background:#FF346D;
-  color:#ffffff;
-  padding:10px;
-  font-weight: bold;
+
+
+#container-img-titre {
+    min-height: 500px;
+    padding:10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container-description-bouton {
+    min-height: 250px;
+    padding: 40px;
+}
+
+#nav-slide {
+    display: flex;
+    justify-content: center;
+}
+
+#nav-slide i {
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.bouton-projet {
+    border: none;
+    background: #FF346D;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
 }
