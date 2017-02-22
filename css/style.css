@@ -54,6 +54,13 @@ h2 {
     padding: 10px 0;
 }
 
+/*
+#menu-principal ul li:hover {
+    background:#5EE88A;
+}
+*/
+
+
 #sous-menu{
   padding-left: 15px;
 }
@@ -97,4 +104,9 @@ h2 {
     color: #ffffff;
     padding: 10px;
     font-weight: bold;
+}
+
+.icon-github{
+  font-size: 3rem;
+  color:#000000;
 }

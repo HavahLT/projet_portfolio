@@ -20,6 +20,7 @@ btnMenuClose.addEventListener('click', function(){
   menuPrincipal.style.display = "none";
   btnMenu.style.display = "block";
   btnMenuClose.style.display = "none";
+  sousMenuProjets.style.display = "none";
 });
 
 btnProjets.addEventListener('click', function(){
