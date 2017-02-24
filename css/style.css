@@ -5,7 +5,9 @@
 p {
     font-family: 'Raleway', sans-serif;
     padding:20px;
-    font-size: 1.3rem;
+    font-size: 1.05rem;
+    line-height: 26px;
+    text-align: justify;
 }
 
 h1, h2, h3, h4, h5 {
@@ -92,6 +94,10 @@ h3{
 img.image-projet{
   width:80%;
   margin: 0 auto;
+}
+
+#container-slide a{
+  margin:auto;
 }
 
 button.bouton-projet {
