@@ -1,8 +1,6 @@
-var containerImgTitre = document.getElementById('container-img-titre'),
- containerDescBtn = document.getElementById('container-description-bouton'),
+var containerSlide = document.getElementById('container-slide'),
     i = 0,
-    btnLeft = document.getElementById('btn-left'),
-    btnRight = document.getElementById('btn-right');
+    btnSlide = document.querySelector('.btn-slide');
 
 var listeProjets = [
   {
@@ -29,50 +27,30 @@ var listeProjets = [
 
 ]
 //creer elements
-//var imgProjet = document.createElement('div');
-var nomProjet = document.createElement('h3'),
+var imgProjet = document.createElement('img'),
+    nomProjet = document.createElement('h3'),
     descriptionProjet = document.createElement('p'),
     boutonProjet = document.createElement('button'),
     lienProjet = document.createElement('a');
 
 // styliser elements
-
-boutonProjet.classList.add('bouton-projet');
-boutonProjet.classList.add('center-block');
-nomProjet.classList.add('titre-projet');
-
+  nomProjet.classList.add('titre-projet');
+  imgProjet.classList.add('image-projet');
+  boutonProjet.classList.add('bouton-projet');
 // initialiser la fonction
-injecterJsDansHtml();
+  injecterJsDansHtml();
 
 function injecterJsDansHtml(){
   // recup element
-  containerImgTitre.style.background = "url(" + listeProjets[i].visuel + ")";
+  imgProjet.setAttribute("src", listeProjets[i].visuel);
   lienProjet.setAttribute("href", listeProjets[i].lien);
   nomProjet.textContent = listeProjets[i].nom;
   descriptionProjet.textContent = listeProjets[i].description;
   boutonProjet.textContent = "Plus d'infos";
   // placer element
-  containerImgTitre.appendChild(nomProjet);
-  containerDescBtn.appendChild(descriptionProjet);
-  containerDescBtn.appendChild(lienProjet);
+  containerSlide.appendChild(imgProjet);
+  containerSlide.appendChild(nomProjet);
+  containerSlide.appendChild(lienProjet);
   lienProjet.appendChild(boutonProjet);
+  containerSlide.appendChild(descriptionProjet);
 }
-
-// les boutons du slide partie projets
-btnLeft.style.fontSize = "4em";
-btnLeft.style.cursor = "pointer";
-//btnLeft.classList.add('center-block');
-btnRight.style.fontSize = "4em";
-btnRight.style.cursor = "pointer";
-//btnRight.classList.add('center-block');
-
-btnLeft.addEventListener("click", function(){
-  i = i - 1;
-  injecterJsDansHtml();
-
-});
-
-btnRight.addEventListener("click", function(){
-  i = i + 1;
-  injecterJsDansHtml();
-});

@@ -4,6 +4,8 @@
 
 p {
     font-family: 'Raleway', sans-serif;
+    padding:20px;
+    font-size: 1.3rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -24,9 +26,17 @@ h2 {
     margin:10px 0;
 }
 
+h3{
+  font-size: 1.5rem;
+  margin:10px 0;
+}
+
+/* structure */
+
 #site {
     width: 100%;
 }
+/*  menu  */
 
 #barre-menu {
     display: flex;
@@ -54,18 +64,14 @@ h2 {
     padding: 10px 0;
 }
 
-/*
-#menu-principal ul li:hover {
-    background:#5EE88A;
-}
-*/
-
-
 #sous-menu{
   padding-left: 15px;
 }
 
+/* header */
+
 #header, #apropos, #projets{
+  width:100%;
   min-height:100vh;
 }
 
@@ -73,19 +79,27 @@ h2 {
   background: #FF3955;
 }
 
+/* Projets */
 
 
-
-#container-img-titre {
-    min-height: 500px;
-    padding:10px;
-    background-size: cover;
-    background-repeat: no-repeat;
+#container-slide{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
-#container-description-bouton {
-    min-height: 250px;
-    padding: 40px;
+img.image-projet{
+  width:80%;
+  margin: 0 auto;
+}
+
+button.bouton-projet {
+    border: none;
+    background: #FF346D;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
 }
 
 #nav-slide {
@@ -98,13 +112,8 @@ h2 {
     cursor: pointer;
 }
 
-.bouton-projet {
-    border: none;
-    background: #FF346D;
-    color: #ffffff;
-    padding: 10px;
-    font-weight: bold;
-}
+
+/* contact */
 
 .icon-github{
   font-size: 3rem;
