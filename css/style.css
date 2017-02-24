@@ -85,13 +85,19 @@ h3{
 
 /* header */
 
-#header, #apropos, #projets{
+#header, #apropos, #projets, #mini-projets, #contact{
   width:100%;
   min-height:100vh;
+  padding:20px 0;
 }
 
 #header{
-  background: #FF3955;
+  background: #DE3C63;
+  color:#FFFFFF;
+}
+
+#header p{
+  text-align: center;
 }
 
 /* Projets */
@@ -134,6 +140,29 @@ button.bouton-projet {
 
 
 /* contact */
+#contact{
+  background: #262626;
+}
+
+#contact h2{
+  color:#FFFFFF;
+}
+
+#formulaire{
+  padding:0 20px;
+}
+
+#formulaire input, #formulaire textarea{
+  width:100%;
+  border:none;
+  margin: 5px 0;
+  padding:5px 0;
+}
+
+#formulaire button{
+  border:none;
+  padding:10px;
+}
 
 .icon-github{
   font-size: 3rem;
