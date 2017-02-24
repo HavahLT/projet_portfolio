@@ -9,14 +9,18 @@ p {
     line-height: 26px;
     text-align: justify;
 }
+a{
+  text-decoration: none;
+  color:#FFFFFF;
+}
 
 h1, h2, h3, h4, h5 {
     color: #000000;
     font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
 h1{
-  text-align: center;
   font-size: 2rem;
   color:#FFFFFF;
   padding:20px 0;
@@ -24,7 +28,6 @@ h1{
 
 h2 {
     font-size: 1.8rem;
-    text-align: center;
     margin:10px 0;
 }
 
@@ -37,6 +40,16 @@ h3{
 
 #site {
     width: 100%;
+}
+
+#btn-top{
+  position: fixed;
+  bottom:5px;
+  right:5px;
+  padding:15px;
+  color:#FFFFFF;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.4);
 }
 /*  menu  */
 
@@ -106,6 +119,7 @@ button.bouton-projet {
     color: #ffffff;
     padding: 10px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #nav-slide {
